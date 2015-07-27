@@ -1,0 +1,59 @@
+body {
+	background: #fffaf0;
+	font-size:25;
+}
+
+table.center{
+	text-align:center;
+}
+
+table.login{
+	text-align:center;
+}
+
+#a {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid #103460;
+	background: #d6dfec;
+	padding: 20px;
+}
+
+#header {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid #103460;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #1e90ff;
+}
+
+.headerButton {
+	font-weight:bold;
+	font-size:120%;
+	background-color:yellow;
+	WIDTH:130px;
+	HEIGHT:40px;
+}
+
+.menuButton{
+	font-weight:bold;
+	background-color:glay;
+	color:#001000;
+	margin:8px;
+	font-size:50px;
+}
+
+.box {
+    border: 1px solid #FF3400;
+	font-size:30px;
+}
+
+#label {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	font-size: 300%;
+	text-align: center;
+	padding: 5px;
+}
