@@ -56,7 +56,7 @@ public class Once extends HttpServlet {
 				data.setOnceId(rs.getInt("once_id"));	//once_idの取得
 				data.setReserveTime(rs.getTimestamp("reserve_time"));	//reserve_timeの取得
 				data.setPosted(rs.getInt("posted"));	//postedの取得
-				String text = Snipet.snipet(rs.getString("text"));
+				String text = rs.getString("text");
 				data.setText(text);	//textの取得
 				onceList.add(data);	//Listに要素追加
 			}
